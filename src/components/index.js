@@ -7,7 +7,6 @@ class IndexPage extends Component {
         return (
             <body>
             <div>
-                <h1 id="head">Welcome to or Trello</h1>
                 hello
             </div>
         </body>
