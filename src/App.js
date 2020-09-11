@@ -7,17 +7,16 @@ import {
   Switch
 } from "react-router-dom";
 
-import Index from './pages/index';
+import Landing from './pages/landing';
 
 class App extends Component{
   render() {
     return (
       <Router>
         <Switch>
-          <Route path="/index" component={Index}/>
+          <Route exact path="/" component={Landing}/>
         </Switch>
       </Router>
-
     );
   }
 }
